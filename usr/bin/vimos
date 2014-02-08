@@ -1,0 +1,2 @@
+gnome-session --session=ubuntu
+gnome-terminal
