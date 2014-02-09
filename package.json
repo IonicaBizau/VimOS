@@ -1,11 +1,26 @@
 {
   "name": "vimos",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "VimOS =====",
   "main": "index.js",
   "scripts": {
     "install": "sh installation/main.sh"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Ionică Bizău <bizauionica@gmail.com>",
+  "license": "Apache 2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IonicaBizau/VimOS.git"
+  },
+  "keywords": [
+    "desktop",
+    "environment",
+    "vimos",
+    "vim",
+    "ubuntu"
+  ],
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/VimOS/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/VimOS"
 }
