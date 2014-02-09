@@ -7,6 +7,10 @@ sudo cp ./usr/bin/vimos /usr/bin
 echo "> Installing default applications ..."
 sh ./installation/deps.sh
 
+echo "> Making directory: ~/.vimos"
+mkdir ~/.vimos
+cp ./start/main.txt ~/.vimos/
+
 echo "> Setting up .vimrc file"
 
 if ls ~/.vimrc >/dev/null; then
