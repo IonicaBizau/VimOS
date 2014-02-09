@@ -1,3 +1,3 @@
 #!/bin/bash
 pkill vim
-vim ~/.vimos/welcome.txt -c "vs | :ConqueTerm screen -f"
+vim ~/.vimos/welcome.txt -c "below 10sp | :ConqueTerm screen -f"
