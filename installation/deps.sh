@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# gnome-terminal
+if ! which gnome-terminal > /dev/null; then
+    echo "> Installing gnome-terminal ..."
+    sudo apt-get install gnome-terminal -y
+fi
+
 # screen
 if ! which screen > /dev/null; then
     echo "> Installing screen ..."
