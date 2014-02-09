@@ -1,2 +1,1 @@
-gnome-session --session=ubuntu
-gnome-terminal
+gnome-terminal --hide-menubar --window --full-screen -t "VimOS" -x "vim"
