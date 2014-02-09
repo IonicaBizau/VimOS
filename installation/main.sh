@@ -1,4 +1,4 @@
-echo "> Copying xsession file ..."
+ech "> Copying xsession file ..."
 sudo cp ./usr/share/xsessions/vimos.desktop /usr/share/xsessions/
 
 echo "> Copying executable file ..."
@@ -9,7 +9,7 @@ sh ./installation/deps.sh
 
 echo "> Setting up .vimrc file"
 
-if ! ls ~/.vimrc >/dev/null; then
+if ls ~/.vimrc >/dev/null; then
     while true; do
         read -p "> Do you want to override the ~/.vimrc file?" yn
         case $yn in
@@ -19,3 +19,5 @@ if ! ls ~/.vimrc >/dev/null; then
         esac
     done
 fi
+
+sh ./installation/postInstall.sh;
