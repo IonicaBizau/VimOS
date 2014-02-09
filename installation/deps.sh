@@ -12,4 +12,10 @@ if ! which elinks > /dev/null; then
     sudo apt-get install elinks -y
 fi
 
+# vim
+if ! which elinks > /dev/null; then
+    echo "> Installing VIM ..."
+    sudo apt-get install vim -y
+fi
+
 # TODO Other apps
