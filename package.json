@@ -1,7 +1,7 @@
 {
   "name": "vimos",
   "version": "0.0.2",
-  "description": "VimOS =====",
+  "description": "Desktop environment based on VIM only",
   "main": "index.js",
   "scripts": {
     "install": "sh installation/main.sh"
