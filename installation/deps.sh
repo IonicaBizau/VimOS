@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# git
+if ! which git > /dev/null; then
+    echo "> Installing git ..."
+    sudo apt-get install git -y
+fi
+
 # gnome-terminal
 if ! which gnome-terminal > /dev/null; then
     echo "> Installing gnome-terminal ..."
