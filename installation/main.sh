@@ -1,4 +1,4 @@
-ech "> Copying xsession file ..."
+echo "> Copying xsession file ..."
 sudo cp ./usr/share/xsessions/vimos.desktop /usr/share/xsessions/
 
 echo "> Copying executable file ..."
@@ -8,8 +8,10 @@ echo "> Installing default applications ..."
 sh ./installation/deps.sh
 
 echo "> Making directory: ~/.vimos"
+rm -rf ~/.vimos
 mkdir ~/.vimos
-cp ./start/main.txt ~/.vimos/
+cp ./start/main.txt ~/.vimos/welcome.txt
+cp ./vimos/start.sh ~/.vimos/start.sh
 
 echo "> Setting up .vimrc file"
 

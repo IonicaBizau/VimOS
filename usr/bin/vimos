@@ -1,1 +1,1 @@
-gnome-terminal --hide-menubar --window --full-screen -t "VimOS" -x "vim"
+gnome-terminal --hide-menubar --window --full-screen -t "VimOS" -x "/home/$USER/.vimos/start.sh"
