@@ -19,7 +19,7 @@ if ! which elinks > /dev/null; then
 fi
 
 # vim
-if ! which elinks > /dev/null; then
+if ! which vim > /dev/null; then
     echo "> Installing VIM ..."
     sudo apt-get install vim -y
 fi
