@@ -1,13 +1,13 @@
 {
   "name": "vimos",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Desktop environment based on VIM only",
   "main": "index.js",
   "scripts": {
     "install": "sh installation/main.sh"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "Apache 2.0",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
   "repository": {
     "type": "git",
     "url": "git://github.com/IonicaBizau/VimOS.git"
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/VimOS/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/VimOS"
+  "homepage": "https://github.com/IonicaBizau/VimOS",
+  "blah": {
+    "title": "VimOS",
+    "ex_img": "http://i.imgur.com/lcyypKl.png",
+    "license_year": "2014\n"
+  }
 }
