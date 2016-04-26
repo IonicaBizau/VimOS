@@ -1,8 +1,8 @@
 {
   "name": "vimos",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Desktop environment based on VIM only",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "install": "sh installation/main.sh"
   },
@@ -27,5 +27,16 @@
     "title": "VimOS",
     "ex_img": "http://i.imgur.com/lcyypKl.png",
     "license_year": "2014\n"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
