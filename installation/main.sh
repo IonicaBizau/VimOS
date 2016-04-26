@@ -21,16 +21,16 @@ cp ./vimos/start.sh ~/.vimos/start.sh
 
 echo "> Setting up .vimrc file"
 
-if ls ~/.vimrc >/dev/null; then
-    while true; do
-        read -p "> Do you want to override the ~/.vimrc file?" yn
-        case $yn in
-            [Yy]* ) break;;
-            [Nn]* ) sh ./installation/postInstall.sh; exit;;
-            * ) echo "Please answer yes or no.";;
-        esac
-    done
-fi
-
-sh ./installation/setVimrc.sh;
-sh ./installation/postInstall.sh;
+#if ls ~/.vimrc >/dev/null; then
+#    while true; do
+#        read -p "> Do you want to override the ~/.vimrc file?" yn
+#        case $yn in
+#            [Yy]* ) break;;
+#            [Nn]* ) sh ./installation/postInstall.sh; exit;;
+#            * ) echo "Please answer yes or no.";;
+#        esac
+#    done
+#fi
+#
+#sh ./installation/setVimrc.sh;
+#sh ./installation/postInstall.sh;

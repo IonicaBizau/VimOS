@@ -1,5 +1,5 @@
 echo "> Installing VIM plugins ..."
-vim +BundleInstall +qall
+#vim +BundleInstall +qall
 
 echo "     _    _      _"
 echo "    | |  | |    | |"
