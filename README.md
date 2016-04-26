@@ -1,13 +1,15 @@
+
 # VimOS [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/vimos.svg)](https://www.npmjs.com/package/vimos) [![Downloads](https://img.shields.io/npm/dt/vimos.svg)](https://www.npmjs.com/package/vimos) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Desktop environment based on VIM only
 
 [![vimos](http://i.imgur.com/lcyypKl.png)](#)
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## License
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
