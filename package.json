@@ -4,7 +4,7 @@
   "description": "Desktop environment based on VIM only",
   "main": "lib/index.js",
   "scripts": {
-    "install": "sh installation/main.sh"
+    "setup": "sh installation/main.sh"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
