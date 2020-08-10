@@ -1,6 +1,6 @@
 {
   "name": "vimos",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Desktop environment based on VIM only",
   "main": "lib/index.js",
   "scripts": {
